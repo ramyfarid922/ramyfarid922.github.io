@@ -5,7 +5,7 @@ class PortfolioPage extends Component {
     return (
       <div className="row">
         <div className="col-md-12">
-          <h1>Hello! Welcome to my portfolio page. I am Ramy</h1>
+          <h1>Ba7ebek ya rorooo <3</h1>
         </div>
       </div>
     );
