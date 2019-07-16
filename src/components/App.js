@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import NavigationBar from "./NavigationBar";
+import NavigationBarSB from "./NavigationBarSB";
+
 import FlashMessagesList from "./flash/FlashMessagesList";
 import Greetings from "./Greetings";
 import SignupPage from "./signup/SignupPage";
@@ -11,8 +13,10 @@ import PortfolioPage from "./personal/PortfolioPage";
 export default class App extends Component {
   render() {
     return (
-      <div className="container">
-        <NavigationBar />
+      <div>
+        {/* <NavigationBar /> */}
+        <NavigationBarSB />
+        
         <FlashMessagesList />
         <Switch>
           <Route exact path="/" component={Greetings} />
