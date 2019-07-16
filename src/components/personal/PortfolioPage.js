@@ -5,7 +5,7 @@ class PortfolioPage extends Component {
     return (
       <div className="row">
         <div className="col-md-12">
-          <h1>Ba7ebek ya rorooo <3</h1>
+          <h1>Ba7ebek ya rorooo</h1>
         </div>
       </div>
     );
