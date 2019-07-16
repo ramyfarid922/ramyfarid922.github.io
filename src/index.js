@@ -32,6 +32,3 @@ render(
   </Provider>,
   document.getElementById("app")
 );
-
-// Allows the react-hot-loader to work
-module.hot.accept();
