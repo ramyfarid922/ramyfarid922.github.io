@@ -8,7 +8,6 @@
     "bluebird": "^3.5.5",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
-    "gh-pages": "^2.0.1",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.11",
     "prop-types": "^15.7.2",
@@ -25,6 +24,7 @@
     "validator": "^11.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "react-hot-loader": "^4.11.1",
     "webpack-dev-middleware": "^3.7.0",
     "webpack-hot-middleware": "^2.25.0"
@@ -53,5 +53,5 @@
     ]
   },
   "proxy": "http://localhost:8080/",
-  "homepage": "https://ramyfarid922.github.io/stackferry/public/"
+  "homepage": "https://ramyfarid922.github.io/stackferry/"
 }
