@@ -58,7 +58,7 @@ class NavigationBar extends Component {
           Home
         </NavLink>
         <NavLink to="/portfolio" className="nav-link" activeClassName="active">
-          Reem
+          portfolio
         </NavLink>
         <NavLink to="/blog" className="nav-link" activeClassName="active">
           My Blog
