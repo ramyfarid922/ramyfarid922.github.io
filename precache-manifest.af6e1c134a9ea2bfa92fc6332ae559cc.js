@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2bb7003530a435c20fab0d3e03524b4",
+    "revision": "257ab98c34c4f04abac4b2a4145c7d12",
     "url": "/stackferry/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stackferry/static/js/2.969d4a90.chunk.js"
   },
   {
-    "revision": "a992ffcb24633a64e7ec",
-    "url": "/stackferry/static/js/main.5d97794b.chunk.js"
+    "revision": "2e2cb20febc9a4012836",
+    "url": "/stackferry/static/js/main.1de92b8d.chunk.js"
   },
   {
     "revision": "94a375f3c8043d759423",
