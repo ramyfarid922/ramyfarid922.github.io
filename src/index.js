@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
 import { createStore, applyMiddleware, compose } from "redux";
@@ -27,9 +27,9 @@ if (localStorage.jwtToken) {
 
 render(
   <Provider store={store}>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Route path="/" component={App} />
-    </BrowserRouter>
+    </HashRouter>
   </Provider>,
   document.getElementById("app")
 );
