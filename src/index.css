@@ -24,14 +24,12 @@ a:focus {
 
 /** Ends bootstrap overrides **/
 .image-section {
-  background-color: yellow;
   height: 300px;
   width: 300px;
   padding: 0px;
 }
 
 .image-card {
-  background-color: yellow;
   height: 300px;
   width: 300px;
   border-radius: 100%;
