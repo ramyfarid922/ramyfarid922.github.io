@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stackferry/static/css/main.8242aedb.chunk.css",
-    "main.js": "/stackferry/static/js/main.a54326a9.chunk.js",
-    "main.js.map": "/stackferry/static/js/main.a54326a9.chunk.js.map",
+    "main.js": "/stackferry/static/js/main.04c98421.chunk.js",
+    "main.js.map": "/stackferry/static/js/main.04c98421.chunk.js.map",
     "runtime~main.js": "/stackferry/static/js/runtime~main.67a44e69.js",
     "runtime~main.js.map": "/stackferry/static/js/runtime~main.67a44e69.js.map",
-    "static/js/2.3263b643.chunk.js": "/stackferry/static/js/2.3263b643.chunk.js",
-    "static/js/2.3263b643.chunk.js.map": "/stackferry/static/js/2.3263b643.chunk.js.map",
+    "static/js/2.9bca3082.chunk.js": "/stackferry/static/js/2.9bca3082.chunk.js",
+    "static/js/2.9bca3082.chunk.js.map": "/stackferry/static/js/2.9bca3082.chunk.js.map",
     "index.html": "/stackferry/index.html",
-    "precache-manifest.8090dfe9b516ef099ab3f54c0c2d620c.js": "/stackferry/precache-manifest.8090dfe9b516ef099ab3f54c0c2d620c.js",
+    "precache-manifest.09b1727273ac0a5c0748596845cc489e.js": "/stackferry/precache-manifest.09b1727273ac0a5c0748596845cc489e.js",
     "service-worker.js": "/stackferry/service-worker.js",
     "static/css/main.8242aedb.chunk.css.map": "/stackferry/static/css/main.8242aedb.chunk.css.map"
   }
