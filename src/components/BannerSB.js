@@ -36,7 +36,7 @@ class BannerSB extends Component {
     const { isAuthenticated } = this.props.auth;
 
     return (
-      <header className="bg-dark py-5 mb-5 h-100">
+      <header className="bg-dark py-5 h-100">
         <div className="container h-100">
           <div className="row h-100 align-items-center">
             <div className="col-lg-6">

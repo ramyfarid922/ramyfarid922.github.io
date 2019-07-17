@@ -13,7 +13,7 @@ import PortfolioPage from "./personal/PortfolioPage";
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="main-banner">
         {/* <NavigationBar /> */}
         <NavigationBarSB />
 

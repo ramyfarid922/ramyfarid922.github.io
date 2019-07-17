@@ -34,3 +34,7 @@ a:focus {
   width: 300px;
   border-radius: 100%;
 }
+
+.main-banner {
+  height: 100%  ;
+}
