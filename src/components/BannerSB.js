@@ -36,20 +36,31 @@ class BannerSB extends Component {
     const { isAuthenticated } = this.props.auth;
 
     return (
-      <header className="bg-primary py-5 mb-5">
+      <header className="bg-dark py-5 mb-5">
         <div className="container h-100">
           <div className="row h-100 align-items-center">
-            <div className="col-lg-12">
-              <h1 className="display-4 text-white mt-5 mb-2">Ramy Farid</h1>
-              <p className="lead mb-5 text-white-50">
-                Full stack web developer and a computer engineer at heart with a
-                rigid foundation in software engineering discipline. Throughout
-                my career I have used many technologies to code across the web
-                applications development stack from the initial phase of the
-                application design and architecture further to coding in any
-                part of the stack from deploying using the cloud web services
-                and up to refining the web UI and what's in between.
-              </p>
+            <div className="col-lg-6">
+              <div className="container">
+                <h3 className="display-4 text-white mt-5 mb-2">Ramy Farid</h3>
+                <p className="lead mb-5 text-white-50">
+                  Full stack web developer and a computer engineer at heart with
+                  a rigid foundation in software engineering discipline.
+                  Throughout my career I have used many technologies to code
+                  across the web applications development stack from the initial
+                  phase of the application design and architecture further to
+                  coding in any part of the stack from deploying using the cloud
+                  web services and up to refining the web UI and what's in
+                  between.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="container image-section">
+                <img
+                  className="image-card"
+                  src={process.env.PUBLIC_URL + "/img/ramy.jpg"}
+                />
+              </div>
             </div>
           </div>
         </div>

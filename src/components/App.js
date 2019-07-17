@@ -16,10 +16,10 @@ export default class App extends Component {
       <div>
         {/* <NavigationBar /> */}
         <NavigationBarSB />
-        
+
         <FlashMessagesList />
         <Switch>
-          <Route exact path="/" component={Greetings} />
+          <Route exact path="/" component={HomePage} />
           <Route path="/signup" component={SignupPage} />
           <Route path="/home" component={HomePage} />
           <Route path="/portfolio" component={PortfolioPage} />

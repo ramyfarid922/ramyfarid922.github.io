@@ -66,17 +66,15 @@ class NavigationBarSB extends Component {
       </Nav>
     );
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div className="container">
-          <ul className="navbar-nav ml-auto">
-            <Nav>
-              <NavLink to="/home" className="nav-link" activeClassName="active">
-                Ramy Farid
-              </NavLink>
-            </Nav>
-          </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <NavLink to="/home" className="nav-link" activeClassName="active">
+              Ramy Farid
+            </NavLink>
+          </a>
           <button
-            className="navbar-toggler"
+            class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarResponsive"
@@ -84,10 +82,44 @@ class NavigationBarSB extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" />
+            <span class="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav ml-auto">{guestLinks}</ul>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  <NavLink
+                    to="/home"
+                    className="nav-link"
+                    activeClassName="active"
+                  >
+                    Home
+                  </NavLink>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  <NavLink
+                    to="/blog"
+                    className="nav-link"
+                    activeClassName="active"
+                  >
+                    My Blog
+                  </NavLink>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <NavLink
+                    to="/portfolio"
+                    className="nav-link"
+                    activeClassName="active"
+                  >
+                    Portfolio
+                  </NavLink>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>

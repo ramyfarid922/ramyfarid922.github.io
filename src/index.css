@@ -1,0 +1,38 @@
+/** Bootstrap app-wide style configs **/
+a {
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: grey !important;
+}
+
+/** Ends bootstrap app-wide style configs **/
+
+/** Bootstrap overrides **/
+.navbar-brand {
+  color: grey;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #fff !important;
+}
+
+/** Ends bootstrap overrides **/
+.image-section {
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+  padding: 0px;
+}
+
+.image-card {
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+}
