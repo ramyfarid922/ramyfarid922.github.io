@@ -58,7 +58,7 @@ class BannerSB extends Component {
               <div className="container image-section">
                 <img
                   className="image-card"
-                  src={process.env.PUBLIC_URL + "/img/ramy.jpg"}
+                  src={process.env.PUBLIC_URL + "/img/ramy2.jpg"}
                 />
               </div>
             </div>
