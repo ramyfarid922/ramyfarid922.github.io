@@ -1,6 +1,5 @@
 /** app-wide style configs **/
 body {
-  padding-top: 56px;
 }
 
 a {
@@ -11,6 +10,15 @@ a:hover,
 a:focus {
   color: grey !important;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
 /** Ends app-wide style configs **/
 
 /** Bootstrap overrides **/
