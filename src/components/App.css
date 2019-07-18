@@ -1,10 +1,8 @@
 .main-content {
-  background-color: blue;
   height: calc(100% - 62px);
   margin-top: 62px;
 }
 
 .app-container {
   height: calc(100%);
-  background-color: red;
 }

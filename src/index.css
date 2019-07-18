@@ -16,7 +16,7 @@ button:hover {
 }
 
 button:focus {
-  outline: none;
+  outline: 0;
 }
 
 /** Ends app-wide style configs **/
