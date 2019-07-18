@@ -1,15 +1,34 @@
 .image-section {
-  height: 300px;
-  width: 300px;
+  height: 110px;
+  width: 110px;
   padding: 0px;
 }
 
 .image-card {
-  height: 300px;
-  width: 300px;
+  height: 110px;
+  width: 110px;
   border-radius: 100%;
 }
 
 .main-banner {
   height: 100%;
+}
+
+.name-title {
+  font-family: "Mitr";
+  font-size: 40px;
+}
+
+.job-title {
+  font-family: "Mitr";
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.job-description {
+  font-family: "Mitr";
+  font-size: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
 }

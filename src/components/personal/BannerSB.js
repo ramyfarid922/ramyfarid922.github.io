@@ -28,25 +28,30 @@ class BannerSB extends Component {
     return (
       <header className="bg-dark py-5 h-100">
         <div className="container h-100">
+          <div className="row h-100 mb-4 align-items-center">
+            <div className="container image-section">
+              <ImageCard />
+            </div>
+          </div>
           <div className="row h-100 align-items-center">
-            <div className="col-lg-6">
-              <div className="container">
-                <h3 className="display-4 text-white mt-5 mb-2">Ramy Farid</h3>
-                <p className="lead mb-5 text-white-50">
-                  Full stack web developer and a computer engineer at heart with
-                  a rigid foundation in software engineering discipline.
-                  Throughout my career I have used many technologies to code
-                  across the web applications development stack from the initial
-                  phase of the application design and architecture further to
-                  coding in any part of the stack from deploying using the cloud
+            <div className="container">
+              <div className="row h-100 align-items-center">
+                <h2 className="text-white-50 text-center w-100 mb-2 name-title">
+                  Ramy Farid
+                </h2>
+              </div>
+              <div className="row h-100 align-items-center">
+                <p className="lead mb-3 text-white-50 text-center job-title w-100">
+                  Full stack web developer and a software builder at heart.
+                </p>
+              </div>
+              <div className="row h-100 align-items-center">
+                <p className="lead mb-3 text-white-50 text-center job-description">
+                  Stack-agnostic developer who favors Javascript development
+                  stack. I code across the stack from deploying using the cloud
                   web services and up to refining the web UI and what's in
                   between.
                 </p>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="container image-section">
-                <ImageCard />
               </div>
             </div>
           </div>
