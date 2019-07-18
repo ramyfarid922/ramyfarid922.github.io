@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import BannerSB from "./BannerSB";
+import ComingSoonPage from "../ComingSoonPage";
 
 class Portfolio extends Component {
   render() {
     return (
       <div>
-        <BannerSB />
+        <ComingSoonPage />
       </div>
     );
   }
