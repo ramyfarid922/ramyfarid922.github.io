@@ -9,8 +9,9 @@ import setAuthorizationToken from "./utils/setAuthorizationToken";
 import jwt from "jsonwebtoken";
 import { setCurrentUser } from "./actions/authActions";
 import "./index.css";
-import "./styles/business-frontpage.css";
-
+import "./styles/navbar.css";
+import "./styles/banner.css";
+import "./styles/blog.css";
 import App from "./components/App";
 
 const store = createStore(

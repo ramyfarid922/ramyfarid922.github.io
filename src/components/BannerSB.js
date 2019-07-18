@@ -2,17 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logout } from "../actions/authActions";
-import {
-  Navbar,
-  NavItem,
-  NavDropdown,
-  MenuItem,
-  Nav,
-  Form,
-  FormControl,
-  Button
-} from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import ImageCard from "./personal/ImageCard";
 
 class BannerSB extends Component {
   constructor(props) {
@@ -56,10 +46,7 @@ class BannerSB extends Component {
             </div>
             <div className="col-lg-6">
               <div className="container image-section">
-                <img
-                  className="image-card"
-                  src={process.env.PUBLIC_URL + "/img/ramy.jpg"}
-                />
+                <ImageCard />
               </div>
             </div>
           </div>

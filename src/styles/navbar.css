@@ -1,0 +1,13 @@
+/** Bootstrap overrides **/
+.navbar-brand {
+  color: grey;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #fff !important;
+}
+
+/** Ends bootstrap overrides **/

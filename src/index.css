@@ -1,4 +1,8 @@
-/** Bootstrap app-wide style configs **/
+/** app-wide style configs **/
+body {
+  padding-top: 56px;
+}
+
 a {
   color: inherit;
 }
@@ -7,34 +11,10 @@ a:hover,
 a:focus {
   color: grey !important;
 }
+/** Ends app-wide style configs **/
 
-/** Ends bootstrap app-wide style configs **/
 
 /** Bootstrap overrides **/
-.navbar-brand {
-  color: grey;
-  font-size: 24px;
-  font-weight: 400;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus {
-  color: #fff !important;
-}
 
 /** Ends bootstrap overrides **/
-.image-section {
-  height: 300px;
-  width: 300px;
-  padding: 0px;
-}
 
-.image-card {
-  height: 300px;
-  width: 300px;
-  border-radius: 100%;
-}
-
-.main-banner {
-  height: 100%  ;
-}
