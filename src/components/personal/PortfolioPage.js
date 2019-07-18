@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BannerSB from "../BannerSB";
+import BannerSB from "./BannerSB";
 
 class Portfolio extends Component {
   render() {

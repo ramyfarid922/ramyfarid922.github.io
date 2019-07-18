@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import BannerSB from "../BannerSB";
+import BannerSB from "./BannerSB";
 
 class HomePage extends Component {
   render() {
     return (
       <div>
-        <BannerSB />  
+        <BannerSB />
       </div>
     );
   }

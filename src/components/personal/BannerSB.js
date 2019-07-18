@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { logout } from "../actions/authActions";
-import ImageCard from "./personal/ImageCard";
+import { logout } from "../../actions/authActions";
+import ImageCard from "./ImageCard";
 
 class BannerSB extends Component {
   constructor(props) {
