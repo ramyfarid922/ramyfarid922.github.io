@@ -18,16 +18,15 @@ export default class App extends Component {
         {/* <NavigationBar /> */}
         <NavigationBarSB />
         <FlashMessagesList />
-        <div className="fluid">
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route path="/signup" component={SignupPage} />
-            <Route path="/home" component={HomePage} />
-            <Route path="/portfolio" component={PortfolioPage} />
-            <Route path="/blog" component={BlogPage} />
-            <Route path="/login" component={LoginPage} />
-          </Switch>
-        </div>
+
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/signup" component={SignupPage} />
+          <Route path="/home" component={HomePage} />
+          <Route path="/portfolio" component={PortfolioPage} />
+          <Route path="/blog" component={BlogPage} />
+          <Route path="/login" component={LoginPage} />
+        </Switch>
       </div>
     );
   }
