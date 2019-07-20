@@ -27,7 +27,7 @@ class BannerSB extends Component {
 
     return (
       <header className="bg-dark py-5 h-100">
-        <div className="container-fluid">
+        <div className="container">
           <div className="row h-100 mb-4 align-items-center">
             <div className="container image-section">
               <ImageCard />

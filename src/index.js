@@ -12,6 +12,7 @@ import "./styles/fonts.css";
 import "./index.css";
 import "./styles/navbar.css";
 import "./styles/banner.css";
+import "./styles/home.css";
 import "./styles/blog.css";
 import App from "./components/App";
 

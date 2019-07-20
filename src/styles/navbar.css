@@ -3,11 +3,12 @@
   color: grey;
   font-size: 24px;
   font-weight: 400;
+  font-family: Mitr;
 }
 
 .navbar-brand:hover,
 .navbar-brand:focus {
-  color: #fff !important;
+  color: grey !important;
 }
 
 /** Ends bootstrap overrides **/
