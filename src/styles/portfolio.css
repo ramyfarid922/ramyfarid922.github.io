@@ -1,0 +1,12 @@
+.portfolio-descr {
+  font-family: "Mitr";
+  font-size: 14px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
