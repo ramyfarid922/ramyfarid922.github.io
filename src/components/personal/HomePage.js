@@ -9,8 +9,8 @@ class HomePage extends Component {
         <br />
         <div className="container homepage-container">
           <div className="row">
-            <div className="col-md-8 mb-5">
-              <h2>What I do</h2>
+            <div className="col-md-8 mb-5 what-ido-text">
+              <h3>What I do</h3>
               <hr />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
@@ -28,8 +28,8 @@ class HomePage extends Component {
                 Know more! &raquo;
               </a>
             </div>
-            <div className="col-md-4 mb-5">
-              <h2>Contact Me</h2>
+            <div className="col-md-4 mb-5 contact-me-text">
+              <h3>Contact Me</h3>
               <hr />
               <address>
                 <strong>Ramy Farid</strong>
