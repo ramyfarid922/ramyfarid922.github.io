@@ -13,16 +13,13 @@ class HomePage extends Component {
               <h3>What I do</h3>
               <hr />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                deserunt neque tempore recusandae animi soluta quasi? Asperiores
-                rem dolore eaque vel, porro, soluta unde debitis aliquam
-                laboriosam. Repellat explicabo, maiores!
+              I am Ramy Farid, a full stack software developer and a part-time teaching assistant in computer engineering department in my university. I have a bachelor's degree in computer engineering. 
+
+
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
-                optio neque consectetur consequatur magni in nisi, natus beatae
-                quidem quam odit commodi ducimus totam eum, alias, adipisci
-                nesciunt voluptate. Voluptatum.
+              I have expertise in the field working for more than two years professionally in developing full stack web applications and REST APIs for SaaS software startups and also reverse engineering and revamping old projects. Throughout my career I have faced many issues in all the most of the aspects of full stack web development that I am sure I can work my way to always find a solution
+
               </p>
               <a className="btn btn-dark btn-lg" href="#">
                 Know more! &raquo;
@@ -41,7 +38,7 @@ class HomePage extends Component {
               <address>
                 <br />
 
-                <a href="mailto:#">name@example.com</a>
+                <a href="mailto:#">ramyfarid922@gmail.com</a>
               </address>
             </div>
           </div>
